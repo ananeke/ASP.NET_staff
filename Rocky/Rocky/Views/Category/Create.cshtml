@@ -35,7 +35,7 @@
                             <input type="submit" class="btn btn-info w-100" value="Create"/>
                         </div>
                         <div class="col">
-                            <a asp-action="Index" class="btn btn-success w-100">Back</a>
+                            <a asp-action="Index" class="btn btn-success w-100"><i class="fas fa-sign-out-alt"></i> Back</a>
                         </div>
                     </div>
                 </div>
@@ -47,3 +47,8 @@
     </div>
 
 </form>
+
+@section Scripts{ 
+
+    @{ <partial name="_ValidationScriptsPartial"/> }
+}
